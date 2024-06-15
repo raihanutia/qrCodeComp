@@ -26,14 +26,19 @@
     font-size: 22px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 15px;
     background-color: hsl(212, 45%, 89%);
 }
 
 main {
-    height: 646px;
+    height: 47rem;
     display: flex;
+    margin: auto;
 }
 
 .container {
@@ -80,5 +85,5 @@ div.container-p {
 footer.outfit-regular {
     text-align: center;
     color: hsl(218, 44%, 22%);
-    margin-top: -31px;
+    margin-top: -33px;
 }
